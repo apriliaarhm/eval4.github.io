@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faf0e6;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf0e6;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  text-align: center;
+  background-color: #eee2dc;
+  padding: 20px 0px;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.svg-top,
+.svg-bottom {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 0; /* Hilangkan jarak tambahan */
+}
+
+/* About Section Styles */
+.about {
+  padding: 20px 0px;
+  background-color: #eee2dc;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about us {
+  background: #eee2dc;
+}
+
+/* Orders Section Styles */
+.orders {
+  padding: 20px 0px;
+  background-color: #eee2dc;
+}
+
+.orders h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.orders form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.orders form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.orders form input,
+.orders form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.orders form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.orders form button:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  background-color: #faf0e6;
+  color: black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #2f4f4f;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
